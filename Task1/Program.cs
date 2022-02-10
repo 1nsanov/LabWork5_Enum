@@ -52,7 +52,7 @@ namespace Task1
                         break;
                     case ConsoleKey.D:
                         Console.Clear();
-                        OutputList(listStudents.Where(s => s.EducationFrom == Education.SecondEducation).ToList());
+                        OutputList(listStudents);
                         break;
                     case ConsoleKey.Q:
                         Console.Clear();
